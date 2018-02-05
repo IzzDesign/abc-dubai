@@ -165,4 +165,22 @@ footer a.web{margin:0.5em 0 0.5em;}
   .center{margin-left: 5em;}
   .dropdown-menu {display: block;}
   footer{text-align: center;}
+  footer ul{padding: 0; margin: 0;}
+}
+
+@media screen and (max-width: 590px) {
+	.navbar-brand{font-size: 0.8em;}
+	.navbar-brand img{width: 20px; height: 18px;}
+	.hide500{display: none;}
+	.title{margin-top: 5em;}
+}
+
+@media screen and (max-width: 490px) {
+	.nav-pills{
+	webkit-box-orient: vertical!important;
+    -webkit-box-direction: normal!important;
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+    text-align: center;
+	}
 }
