@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'lane_-_narrowregular';
-    src: url('/abc-dubai/webfonts/lane/lane.eot');
-    src: url('/abc-dubai/webfonts/lane/lane.eot?#iefix') format('embedded-opentype'),
-         url('/abc-dubai/webfonts/lane/lane.woff') format('woff'),
-         url('/abc-dubai/webfonts/lane/lane.ttf') format('truetype'),
-         url('/abc-dubai/webfonts/lane/lane.svg#lane_-_narrowregular') format('svg');
+    src: url('../abc-dubai/webfonts/lane/lane.eot');
+    src: url('../abc-dubai/webfonts/lane/lane.eot?#iefix') format('embedded-opentype'),
+         url('../abc-dubai/webfonts/lane/lane.woff') format('woff'),
+         url('../abc-dubai/webfonts/lane/lane.ttf') format('truetype'),
+         url('../abc-dubai/webfonts/lane/lane.svg#lane_-_narrowregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -28,7 +28,7 @@ a, a:hover{color:#FFB90D;}
 .margin{margin-bottom: 2em;}
 .align{margin: 0 auto;}
 
-.header{background: url(img/header/4.jpg) no-repeat fixed center; }
+.header{background: url(../abc-dubai/img/header/4.jpg) no-repeat fixed center; }
 
 .aboutus p{text-indent: 0.7em;}
 
